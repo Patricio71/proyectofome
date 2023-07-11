@@ -191,22 +191,6 @@ nav a{
     margin-top: 20px;
 }
 
-
-
-
-/* SPONSORS */
-/* .banner{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    background-color: gainsboro;
-}
-.banner img{
-    border-radius: 20px;
-} */
-
-
-
 /* FOOTER */
 footer{
     display: flex;
@@ -223,4 +207,42 @@ footer{
 }
 .sponsor{
     margin-top: 30px;
+}
+
+/* MOBILE */
+@media (min-width: 399px) and (max-width: 900){
+    header{
+        width: 100%;
+    }
+    
+}
+ .ultimos-partidos{
+    flex-direction: column;
+    align-items: center;
+
+}
+.info-general{
+    flex-direction: column;
+    align-items: center;
+
+}
+.fixture{
+    flex-direction: column;
+}
+.tabla{
+    align-content: center;
+    width: 84%;
+}
+.divisiones-horarios{
+    flex-direction: column;
+    align-items: center;
+}
+.jornada{
+    width: 84%;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
