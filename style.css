@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+
+}
+header{
+    background-color: #03045e;
+}
+
+.fundacion{
+    margin-top:10px;
+    font-size: 20px;
+}
+.informacion{
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 40px;
+    background-color: #03045e;
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* MAIN */
+.ultimos-partidos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.fomento-alianza{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    
+    
+}
+.fomento-alumni{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.fomento-criba{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.fomento-iris{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.fomento-ringuelet{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.resultado{
+    margin: 0px 10px 0px 10px;
+}
+
+/* INFORMACION PARTIDOS */
+.proximo-partido{
+    font-weight: 600;
+}
+.ubicacion{
+    display: flex;
+}
+.tabla{
+    margin-bottom: 20px;
+}
+.fixture{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    align-content: center;
+
+    
+}
+.cuarta-division{
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro; 
+   
+}
+.senior-division{
+    display: flex;
+    justify-content: space-around;
+
+}
+.tercera-division{
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+
+}
+.primera-division{
+    display: flex;
+    justify-content: space-around;
+
+}
+.horario{
+    font-weight: 600;
+}
+.versus{
+    font-weight: 600;
+
+}
+.cuarta{
+    font-weight: 600;
+
+}
+.senior{
+    font-weight: 600;
+
+}
+.reserva{ 
+    font-weight: 600;
+}
+.primera{
+    font-weight: 600;
+    
+}
+
+/* informacion-categorias */
+.info-general{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.btn-primary{
+    background-color: gainsboro;
+    color: blue;
+    
+}
+
+
+.imagen-titulo{
+    font-size: 25px;
+    padding: 5px 0px 0px 5px;
+}
+.imagen-texto{
+    padding: 0px 0px 0px 5px;
+    font-weight: 600;
+
+
+}
+
+
+/* FIXTURE JUVENILES */
+.fixture__juveniles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.juveniles__parrafo{
+    padding: 10px 0px 0px 0px;
+    background-color: whitesmoke;
+    font-weight: 600;
+}
+.juveniles__femenino-reserva{
+    margin-top:10px;
+}
+.juveniles__femenino-primera{
+    margin-top:10px;
+}
+.jornada{
+    margin-top: 20px;
+}
+
+
+
+
+/* SPONSORS */
+/* .banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: gainsboro;
+}
+.banner img{
+    border-radius: 20px;
+} */
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #03045e;
+    color: whitesmoke;
+    align-items: center; 
+}
+.redes{
+    margin-top: 30px;
+}
+.redes li{
+    list-style-type: none;
+}
+.sponsor{
+    margin-top: 30px;
+}
